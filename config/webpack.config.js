@@ -23,9 +23,10 @@ useDefaultConfig.dev.plugins = [
   }),
   new webpack.ProvidePlugin({
     'window.SQL': 'sql.js/js/sql.js'
+    abcd 
   })
-]
-
+]abcd
+blah
 useDefaultConfig.prod.plugins = [
   ionicWebpackFactory.getIonicEnvironmentPlugin(),
   ionicWebpackFactory.getCommonChunksPlugin(),
