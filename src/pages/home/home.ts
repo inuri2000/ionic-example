@@ -6,13 +6,6 @@ import { Author } from '../../entities/author';
 import { Category } from '../../entities/category';
 import { Post } from '../../entities/post';
 
-@Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
-})
-export class HomePage {
-  private savedPost: boolean = false;
-  private loadedPost: Post = null;
 
   constructor(public navCtrl: NavController) { }
 
